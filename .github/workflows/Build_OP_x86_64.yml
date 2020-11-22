@@ -76,7 +76,7 @@ jobs:
     - name: Import external feeds
       working-directory: ./openwrt
       run: |
-        git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy  #主题-rosy
+        git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy   #主题-rosy
         git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/lean/luci-theme-edge  #主题-edge
         git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom  #透明主题
         git clone -b master https://github.com/vernesong/OpenClash.git package/lean/luci-app-openclash  #openclash出国软件
